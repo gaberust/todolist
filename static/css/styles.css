@@ -1,0 +1,136 @@
+body {
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+}
+ .topnav {
+     overflow: hidden;
+     background-color: #333;
+     margin-bottom: 4rem;
+}
+ .topnav a {
+     float: left;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+}
+ .topnav a:hover {
+     background-color: #ddd;
+     color: black;
+}
+ .topnav a.active {
+     background-color: #04AA6D;
+     color: white;
+}
+/* Form CSS */
+ #feedback-page{
+     text-align:center;
+}
+ #form-main{
+     width:100%;
+     float:left;
+     padding-top:0px;
+}
+ #form-div {
+     background-color:#333;
+     padding: 20px;
+     width: 450px;
+     margin:auto;
+     border-radius: 7px;
+}
+ .form .feedback-input {
+     color:black;
+     font-weight:500;
+     font-size: 18px;
+     border-radius: 0;
+     line-height: 22px;
+     background-color: #fbfbfb;
+     padding: 13px 13px 13px 54px;
+     margin-bottom: 10px;
+     width:100%;
+     box-sizing: border-box;
+     border: 3px solid rgba(0,0,0,0);
+}
+/*Inputs styles*/
+ .form .feedback-input:focus{
+     background: #fff;
+     border: 3px solid #3498db;
+     color: #3498db;
+     outline: none;
+     padding: 13px 13px 13px 54px;
+}
+/* Icons ---------------------------------- */
+ .form #name{
+     background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-address-book.svg);
+     background-size: 30px 30px;
+     background-position: 11px 8px;
+     background-repeat: no-repeat;
+}
+ .form #email{
+     background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mail.svg);
+     background-size: 30px 30px;
+     background-position: 11px 8px;
+     background-repeat: no-repeat;
+}
+ .form #message{
+     background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-pencil.svg);
+     background-size: 30px 30px;
+     background-position: 11px 8px;
+     background-repeat: no-repeat;
+}
+ .form #organization{
+     background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-page.svg);
+     background-size: 30px 30px;
+     background-position: 11px 8px;
+     background-repeat: no-repeat;
+}
+ .form #number{
+     background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mobile.svg);
+     background-size: 30px 30px;
+     background-position: 11px 8px;
+     background-repeat: no-repeat;
+}
+ .form textarea {
+     width: 100%;
+     height: 150px;
+     line-height: 150%;
+     resize:vertical;
+}
+ .form input:hover, .montform textarea:hover, .form input:focus, .montform textarea:focus {
+     background-color:#e6e6e6;
+}
+ .button-blue{
+     float:left;
+     width: 100%;
+     border: #fbfbfb solid 4px;
+     cursor:pointer;
+     background-color: #34db7a;
+     color:white;
+     font-size:24px;
+     padding-top:22px;
+     padding-bottom:22px;
+     transition: all 0.3s;
+     margin-top:-4px;
+     font-weight:700;
+}
+ .button-blue:hover{
+     background-color: rgba(0,0,0,0);
+     color:#04AA6D;
+}
+ .form .submit:hover {
+     color:#04AA6D;
+}
+ .ease {
+     width: 0px;
+     height: 74px;
+     background-color: #fbfbfb;
+     transition: .3s ease;
+}
+ .submit:hover .ease{
+     width:100%;
+     background-color:white;
+}
+ .textlight {
+     color:#fff;
+}

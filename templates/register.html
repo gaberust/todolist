@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <div style="padding-left:16px">
+        <div id="form-div">
+            <h1 class="textlight" style="line-height: 0%; margin-bottom: 3rem;">Login: </h1>
+            <form class="form" action="{{ url_for('register') }}" method="POST">
+                <p>
+                    <input name="username" type="text" class="feedback-input" required placeholder="Username"
+                           id="identifierInput" value="{{ username }}" />
+                </p>
+                <p>
+                    <input name="email" type="email" class="feedback-input" required placeholder="Email" id="emailInput"
+                           value="{{ email }}"/>
+                </p>
+                <p>
+                    <input name="password" type="password" required class="feedback-input" id="passwordInput"
+                           placeholder="Password" value="{{ password }}"/>
+                </p>
+                <p>
+                    <input name="confirm_password" type="password" required class="feedback-input"
+                           id="confirmPasswordInput" placeholder="Confirm Password" value="{{ confirm_password }}"/>
+                </p>
+                <div class="submit" style="margin-bottom: 2rem;">
+                    <input type="submit" class="button-blue" id="submit" value="SUBMIT">
+                    <div class="ease"></div>
+                </div>
+                <a class="textlight" href="{{ url_for('index') }}">Already have an account? Login -&gt;</a>
+            </form>
+        </div>
+    </div>
+{% endblock %}
